@@ -1,1 +1,1 @@
-# Domino-game
+This C++ code defines a `Domino` class that checks if a set of domino pieces can be arranged in a valid chain. The class stores dominoes and attempts to recursively form a chain where the right side of one domino matches the left side of the next. The `IsChain` function tries different starting dominoes to find a valid chain, while `Forms` ensures continuity. If a valid chain is found, the `PrintDominoChain` function outputs the sequence; otherwise, a message indicates that no chain is possible. The program reads the domino pieces from user input.
